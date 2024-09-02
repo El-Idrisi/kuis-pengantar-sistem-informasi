@@ -9,8 +9,8 @@
     // Validasi waktu akses
     function validateAccess() {
         const now = new Date();
-        const startTime = new Date('2023-09-03T10:00:00');
-        const endTime = new Date('2025-09-03T10:30:00');
+        const startTime = new Date('2024-09-03T10:00:00');
+        const endTime = new Date('2024-09-03T10:30:00');
 
         if (now < startTime || now > endTime) {
             alert('Akses kuis hanya tersedia pada 3 September 2024 pukul 10:00 - 10:30.');
